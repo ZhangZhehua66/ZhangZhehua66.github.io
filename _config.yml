@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: 哲华的博客 # the website title (if blank, full name will be used instead)
+title: Zhehua`s Wiki # the website title (if blank, full name will be used instead)
 first_name: Zhang
 middle_name: Zhe
 last_name: Hua
@@ -87,8 +87,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Zhehua`s Blog # blog_name will be displayed in your blog page
+blog_description: 这里记录我的一些博客
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
