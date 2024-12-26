@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: 简介
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 打几个呼噜～
 
 profile:
   align: right
