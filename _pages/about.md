@@ -6,7 +6,7 @@ subtitle: 打几个呼噜～
 
 profile:
   align: right
-  image: prof_pic_color.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>18638538500@163.com</p>
