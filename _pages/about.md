@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 简介
+title: about
 permalink: /
 subtitle: 打几个呼噜～
 
