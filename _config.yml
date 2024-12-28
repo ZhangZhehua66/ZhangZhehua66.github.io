@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Zhehua`s Wiki # the website title (if blank, full name will be used instead)
+title: Zhehua Wiki # the website title (if blank, full name will be used instead)
 first_name: Zhang
 middle_name: Zhe
 last_name: Hua
@@ -55,7 +55,7 @@ socials_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 600px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Zhehua`s Blog # blog_name will be displayed in your blog page
+blog_name: Zhehua Blog # blog_name will be displayed in your blog page
 blog_description: 这里记录我的一些博客
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
