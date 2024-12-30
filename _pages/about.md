@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 主页
+title: 关于
 permalink: /
 subtitle: 
 
@@ -16,3 +16,7 @@ news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
+
+在这里记录我的一些随想
+
+<br>

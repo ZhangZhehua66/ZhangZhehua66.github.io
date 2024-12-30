@@ -549,8 +549,8 @@ footer.sticky-bottom {
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -559,9 +559,10 @@ footer.sticky-bottom {
 }
 
 .tag-category-list {
+  margin-top: -30px;
   border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 0;
 
   ul {
     justify-content: center;
@@ -908,6 +909,16 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post {
+  h1{
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  title{
+    margin-top: -20px;
+    text-align: center;
+  }
+
   .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
@@ -1341,4 +1352,9 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+body {
+  font-family: 'Arial', sans-serif; // 默认字体
+  font-size: 16px; // 默认字号
 }
