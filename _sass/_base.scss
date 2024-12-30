@@ -599,6 +599,7 @@ footer.sticky-bottom {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
       margin-bottom: 0;
+      text-align: center;
     }
 
     .post-tags {
@@ -606,10 +607,11 @@ footer.sticky-bottom {
       font-size: 0.875rem;
       padding-top: 0.25rem;
       padding-bottom: 0;
+      text-align: center;
     }
 
     a {
-      color: var(--global-text-color);
+      color: var(--global-theme-color);
       text-decoration: none;
 
       &:hover {
@@ -912,6 +914,13 @@ html.transition *:after {
   h1{
     margin-top: -20px;
     text-align: center;
+    font-size: 1.8rem;
+  }
+  h2{
+    font-size: 1.6rem;
+  }
+  h3,h4{
+    font-size: 1.4rem;
   }
 
   title{
@@ -923,6 +932,7 @@ html.transition *:after {
     color: var(--global-text-color-light);
     font-size: 0.875rem;
     margin-bottom: 0;
+    text-align: center;
   }
 
   .post-tags {
@@ -930,6 +940,7 @@ html.transition *:after {
     font-size: 0.875rem;
     padding-top: 0.25rem;
     padding-bottom: 1rem;
+    text-align: center;
 
     a {
       color: var(--global-text-color-light);
@@ -939,6 +950,9 @@ html.transition *:after {
         color: var(--global-theme-color);
       }
     }
+  }
+  p{
+    font-size: 1.125rem;
   }
 }
 
@@ -1354,7 +1368,12 @@ ninja-keys::part(ninja-input-wrapper) {
   color: var(--global-text-color);
 }
 
+@font-face {
+  font-family: 'zhongsong';
+  src: url('/assets/fonts/华文中宋.ttf') format('truetype');
+}
+
 body {
-  font-family: 'Arial', sans-serif; // 默认字体
+  font-family: 'Times New Roman', 'zhongsong', SimSun, sans-serif; // 默认字体
   font-size: 16px; // 默认字号
 }
