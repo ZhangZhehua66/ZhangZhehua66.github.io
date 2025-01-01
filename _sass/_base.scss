@@ -918,6 +918,7 @@ html.transition *:after {
   }
   h2{
     font-size: 1.6rem;
+    margin-bottom: 10px;
   }
   h3,h4{
     font-size: 1.4rem;
@@ -954,6 +955,8 @@ html.transition *:after {
   p{
     font-size: 1.125rem;
   }
+  user-select: auto !important;
+  box-sizing: border-box;
 }
 
 progress {
@@ -1376,4 +1379,8 @@ ninja-keys::part(ninja-input-wrapper) {
 body {
   font-family: 'Times New Roman', 'zhongsong', SimSun, sans-serif; // 默认字体
   font-size: 16px; // 默认字号
+}
+
+body .post-content {
+  user-select: auto !important;
 }
