@@ -560,7 +560,7 @@ footer.sticky-bottom {
 
 .tag-category-list {
   margin-top: -30px;
-  border-bottom: 1px solid var(--global-divider-color);
+  // border-bottom: 1px solid var(--global-divider-color);
   text-align: center;
   padding-top: 0;
 
@@ -586,20 +586,19 @@ footer.sticky-bottom {
 
 .post-list {
   margin: 0;
-  margin-bottom: 40px;
-  padding: 0;
 
   li {
-    border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    margin-bottom: 0px;
+    padding: 0;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 
     .post-meta {
       color: var(--global-text-color-light);
       font-size: 0.875rem;
-      margin-bottom: 0;
-      text-align: center;
+      margin-bottom: 2rem;
+      text-align: left;
     }
 
     .post-tags {
@@ -607,7 +606,7 @@ footer.sticky-bottom {
       font-size: 0.875rem;
       padding-top: 0.25rem;
       padding-bottom: 0;
-      text-align: center;
+      text-align: left;
     }
 
     a {

@@ -147,7 +147,7 @@ pagination:
         &nbsp; &middot; &nbsp; {{ post.external_source }}
         {% endif %}
       </p>
-      <p class="post-tags">
+      <!-- <p class="post-tags">
         <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
           <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
 
@@ -172,7 +172,7 @@ pagination:
               {% endunless %}
               {% endfor %}
           {% endif %}
-    </p>
+    </p> -->
 
 {% if post.thumbnail %}
 
