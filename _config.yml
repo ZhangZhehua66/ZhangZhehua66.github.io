@@ -200,7 +200,6 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - jekyll-pdf-embed
 keep_files:
   - CNAME
   - .nojekyll

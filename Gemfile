@@ -20,7 +20,6 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'webrick'
-    gem 'jekyll-pdf-embed'
 end
 group :other_plugins do
     gem 'css_parser'
