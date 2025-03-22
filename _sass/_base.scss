@@ -1375,6 +1375,11 @@ ninja-keys::part(ninja-input-wrapper) {
   src: url('/assets/fonts/华文中宋.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: '宋体';
+  src: url('/assets/fonts/STSong.ttf') format('truetype');
+}
+
 body {
   font-family: 'Times New Roman', 'zhongsong', SimSun, sans-serif; // 默认字体
   font-size: 16px; // 默认字号
@@ -1382,4 +1387,5 @@ body {
 
 body .post-content {
   user-select: auto !important;
+  font-family: 'sans-serif', SimSun, sans-serif; // 默认字体
 }
